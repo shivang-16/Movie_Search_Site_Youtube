@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Libre+Baskerville:ital@1&family=Mukta:wght@600&family=Orbitron:wght@600&family=Playfair:wght@800&family=Poppins:wght@200&family=Roboto:ital,wght@0,300;0,400;0,700;1,700&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: rgb(34, 34, 34);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* overflow: hidden; */
+}
+main {
+  /* border: 2px solid red; */
+  height: inherit;
+  width: 1400px;
+}
+
+nav {
+  padding: 20px;
+  position: sticky;
+  top: 0;
+}
+.content_section {
+  /* border: 2px solid green; */
+  height: 90vh;
+  display: flex;
+  /* align-items: center; */
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.search-box {
+  /* border: 2px solid blue; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* padding: 20px; */
+  margin: 30px 0px;
+}
+.search-box input {
+  padding: 15px;
+  width: 700px;
+  border-radius: 30px 0px 0px 30px;
+  font-size: 18px;
+  /* background-color: black; */
+  color: black;
+  border: none;
+}
+.search-box input:focus {
+  outline: 3px solid orangered;
+}
+
+.search-box button {
+  padding: 20px 25px;
+  border-radius: 30px;
+  background-color: orangered;
+  margin-left: -60px;
+  border: none;
+}
+.search-box button:hover {
+  background-color: rgb(206, 59, 6);
+  cursor: pointer;
+}
+
+.movie-modal-box {
+  border: 2px solid rgb(99, 99, 99);
+  max-height: 400px;
+  width: 700px;
+  position: absolute;
+  top: 90px;
+  overflow-y: auto;
+  display: none;
+  border-radius: 10px;
+  background-color: rgb(48, 48, 48);
+}
+
+.movies {
+  border-bottom: 1px solid rgb(224, 224, 224);
+  display: flex;
+  padding: 10px 0px;
+  cursor: pointer;
+}
+
+.poster {
+  width: 60px;
+  height: 70px;
+  margin-right: 20px;
+  padding: 0px 10px;
+}
+.poster img {
+  height: 100%;
+  width: 100%;
+}
+
+.movie_box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie_content {
+  display: flex;
+  padding: 20px;
+}
+
+.banner {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.banner img {
+  /* max-width: 100%; */
+  /* border: 2px solid #fff; */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-height: 450px;
+  border-radius: 10px;
+}
+
+.details {
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  flex: 2;
+}
+.details_header {
+  width: 100%;
+  text-align: center;
+}
+.details_header h1 {
+  font-size: 50px;
+}
+.details_header p {
+  font-size: 16px;
+  margin: 0 10px 10px 0;
+  display: inline-block;
+  background-color: #bd9804;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.header-box {
+  display: flex;
+  justify-content: center;
+}
+.box {
+  width: 100%;
+}
+.header-box p {
+  margin: 0px 5px;
+  background-color: #497796;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+h1 {
+  font-size: 28px;
+  margin: 10px;
+}
+
+.cast {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.cast-box {
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 0;
+}
+
+p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.additional-details {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #333;
+}
+
+.movie-description {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #fafafa;
+  line-height: 1.5;
+  background-color: #333;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.language-awards {
+  margin-top: 20px;
+  background-color: #ab8712;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.language-awards p {
+  font-size: 18px;
+  margin: 5px 0;
+  color: #fff;
+}
+
+.box-office {
+  margin-top: 20px;
+  background-color: #27ae60;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* You can add more styles or customize these styles to match your design preferences. */
